@@ -3,6 +3,12 @@ svn:wc:ra_dav:version-url
 V 27
 /kevinlearnphp/!svn/ver/2/1
 END
+welcome.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/kevinlearnphp/!svn/ver/38/1/welcome.php
+END
 config.yaml
 K 25
 svn:wc:ra_dav:version-url
@@ -12,6 +18,6 @@ END
 index.php
 K 25
 svn:wc:ra_dav:version-url
-V 37
-/kevinlearnphp/!svn/ver/2/1/index.php
+V 38
+/kevinlearnphp/!svn/ver/37/1/index.php
 END
