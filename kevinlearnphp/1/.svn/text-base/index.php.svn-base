@@ -9,7 +9,10 @@
 			print("This line is output by print func");
 			echo "<br>","This line is output by echo and with a change line character";
 			*/
-		
+			
+			
+			// var_dump("Kevin");
+
 			/*	define var and use var
 
 			$myText = "This is my first php file, and i am defining my first var";
@@ -180,12 +183,83 @@
 
 
   		?>
-
+		
+		<!-- a form to get name and age
+  		
   		<form name="myForm" action="welcome.php" method="get" >
   			Name:	<input type="text" name="name" />
 			Age:	<input type="text" name="age" />
 					<input type="submit" />
   		</form>
-  		
-	</body>
+ 		-->
+
+ 		<?php
+ 			/**
+ 			* define cart with add item and remove item
+ 			*/
+ 			// class cart
+ 			// {
+ 			// 	var $inCart;
+ 				
+ 			// 	function addItem($item, $num)
+ 			// 	{
+ 			// 		$this->inCart['$item'] += $num;
+ 			// 	}
+
+ 			// 	function removeItem($item, $num){
+ 			// 		if($this->$inCart['item'] > $num)
+ 			// 		{
+ 			// 			$this->$inCart['item'] -= $num;
+ 			// 			return ture;
+				// 	}
+ 			// 		elseif ($this->$inCart['item'] == $num) 
+				// 	{
+ 			// 			unset($this->$inCart['$item']);
+ 			// 			return ture;
+				// 	}
+				// 	else
+				// 		return false;
+ 			// 	}
+ 			// }
+ 		
+ 		/**
+ 		* define a class
+ 		*/
+ 		// class cellPhone
+ 		// {
+ 		// 	public $number;
+ 		// 	public $shipDate;
+ 			
+ 		// 	public function __construct($num, $ship)
+ 		// 	{
+ 		// 		$this->number = $num;
+ 		// 		$this->shipDate = $ship;
+ 		// 	}
+
+ 		// 	public function dial($num){
+ 		// 		echo "You are dialing ", $num, ". Hold on for a moment.", "<br>";
+ 		// 	}
+
+ 		// }
+
+ 		// $kevin_s_cellPhone = new cellPhone("13927472994", "20080909");
+ 		// // $kevin_s_cellPhone->dial($kevin_s_cellPhone->number);
+
+ 		// // var_dump($kevin_s_cellPhone);
+ 		// // echo(trim($kevin_s_cellPhone->shipDate));
+
+ 		// echo(time());
+
+ 		$withLuozong = "罗总你好";
+ 		$withoutLuozong = "xunwenkai";
+
+ 		if(!strpos($withoutLuozong, "罗总"))
+ 			echo $withoutLuozong, " doesnot include luozong";
+ 		else
+ 			echo $withoutLuozong, " includes luozong";
+
+ 		?>	
+
+
+ 	</body>
 </html>

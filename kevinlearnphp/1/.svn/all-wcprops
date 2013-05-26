@@ -7,7 +7,7 @@ welcome.php
 K 25
 svn:wc:ra_dav:version-url
 V 40
-/kevinlearnphp/!svn/ver/38/1/welcome.php
+/kevinlearnphp/!svn/ver/40/1/welcome.php
 END
 config.yaml
 K 25
@@ -19,5 +19,5 @@ index.php
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/kevinlearnphp/!svn/ver/37/1/index.php
+/kevinlearnphp/!svn/ver/50/1/index.php
 END
